@@ -1,9 +1,8 @@
-String[] projection = { MobileEntry.COLUMN_MOBILE_BRAND ,
-MobileEntry.COLUMN_MOBILE_STATUS};
+String[] projection = { MobileEntry.COLUMN_MOBILE_BRAND,
+        MobileEntry.COLUMN_MOBILE_STATUS};
 String selection = MobileEntry. COLUMN_MOBILE_OS + “=?”;
-String[] selectionArgs = 
-new String[] { String.valueOf(MobileEntry.OS_ANDROID) };
+String[] selectionArgs = new String[] { String.valueOf(MobileEntry.OS_ANDROID) };
 
 Cursor cursor = db.query(MobileEntry.TABLE_NAME, projection,
-selection, selectionArgs,
-null, null, null);
+       selection, selectionArgs,
+       null, null, null);
