@@ -1,13 +1,13 @@
 ﻿public class CatalogActivity extends AppCompatActivity {
 
-    private PetDbHelper mDbHelper;
+    private MobileDbHelper mDbHelper;
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         
         ...
 
-        mDbHelper = new PetDbHelper(this);
+        mDbHelper = new MobileDbHelper(this);
         displayDatabaseInfo();
     }
     
@@ -16,7 +16,7 @@
    /**
      * Phương thức trợ giúp để chèn dữ liệu thiết bị được mã hóa vào cơ sở dữ liệu. Chỉ dành cho mục đích debug.
      */
-    private void insertPet() {
+    private void insertMobile() {
         // TODO: Chèn một thiết bị vào cơ sở dữ liệu
     }
 
@@ -26,7 +26,7 @@
         switch (item.getItemId()) {
 			// Phản hồi cho thao tác bấm vào lựa chọn "Thêm dữ liệu giả"
             case R.id.action_insert_dummy_data:
-                insertPet();
+                insertMobile();
                 displayDatabaseInfo();
                 return true;
          
