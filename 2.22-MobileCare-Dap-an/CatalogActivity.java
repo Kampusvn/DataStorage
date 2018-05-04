@@ -4,8 +4,7 @@ try {
     // Tạo header trong Text View như sau:
     //
     // Bảng thiết bị chứa <số hàng trong con trỏ> thiết bị
-    // _id - name - breed - gender - weight
-    //
+     //
 	// Trong vòng lặp dưới đây, lặp qua từng hàng của con trỏ và hiển thị thông tin
 	// từ mỗi cột theo thứ tự này.
     displayView.setText("Bảng chứa " + cursor.getCount() + " thiết bị.\n\n");
