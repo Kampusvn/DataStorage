@@ -1,0 +1,14 @@
+<!-- Toast message trong editor khi thiết bị hiện tại được xóa thành công [CHAR LIMIT=NONE] -->
+<string name="editor_delete_mobile_successful">Xóa thiết bị thành công</string>
+
+<!-- Toast message trong editor khi xóa thiết bị thất bại [CHAR LIMIT=NONE] -->
+<string name="editor_delete_mobile_failed">Xảy ra lỗi khi xóa thiết bị</string>
+
+<!-- Tin nhắn trên hộp thoại để người dùng xác nhận xóa [CHAR LIMIT=NONE] -->
+<string name="delete_dialog_msg">Bạn chắc chắn muốn xóa thiết bị?</string>
+
+<!-- Text trên hộp thoại cho lựa chọn xóa [CHAR LIMIT=20] -->
+<string name="delete">Xóa</string>
+
+<!-- Text trên hộp thoại cho lựa chọn không xóa và quay về editor [CHAR LIMIT=20] -->
+<string name="cancel">Không</string>
