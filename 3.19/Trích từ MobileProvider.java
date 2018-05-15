@@ -18,11 +18,6 @@ public int update(Uri uri, ContentValues contentValues, String selection, String
 	}
 }
 
-/**
- * Update pets in the database with the given content values. Apply the changes to the rows
- * specified in the selection and selection arguments (which could be 0 or 1 or more pets).
- * Return the number of rows that were successfully updated.
- */
 private int updateMobile(Uri uri, ContentValues values, String selection, String[] selectionArgs) {  
     // TODO: Cập nhật thiết bị đã chọn trong bảng cơ sở dữ liệu với ContentValues đã cho
 
