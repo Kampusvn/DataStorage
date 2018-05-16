@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Tên ứng dụng [CHAR LIMIT=12] -->
+    <string name="app_name">MobileCare</string>
+
+    <!-- Nhãn của menu option thêm dữ liệu giả [CHAR LIMIT=50] -->
+    <string name="action_insert_dummy_data">Thêm dữ liệu giả</string>
+
+    <!-- Nhãn của menu option xóa hết thiết bị ngoài màn hình chính [CHAR LIMIT=50] -->
+    <string name="action_delete_all_entries">Xóa toàn bộ các thiết bị</string>
+
+    <!-- Tiêu đề activity thêm thiết bị mới [CHAR LIMIT=50] -->
+    <string name="editor_activity_title_new_mobile">Thêm một thiết bị</string>
+
+    <!-- Nhãn cho menu chỉnh sửa để lưu thiết bị và thoát khỏi trình chỉnh sửa [CHAR LIMIT=50] -->
+    <string name="action_save">Lưu</string>
+
+    <!-- Nhãn của menu option xóa thiết bị hiện tại [CHAR LIMIT=50] -->
+    <string name="action_delete">Xóa</string>
+
+    <!-- Nhãn của phần Tổng quan [CHAR LIMIT=50] -->
+    <string name="category_overview">Tổng quan</string>
+
+    <!-- Nhãn của phần Hệ điều hành [CHAR LIMIT=50] -->
+    <string name="category_os">Hệ điều hành</string>
+
+    <!-- Nhãn của phần Trạng thái [CHAR LIMIT=50] -->
+    <string name="category_status">Trạng thái</string>
+
+    <!-- Gợi ý trong trường soạn thảo tên [CHAR LIMIT=50] -->
+    <string name="hint_mobile_name">Tên thiết bị</string>
+
+    <!-- Gợi ý trong trường Hãng sản xuất [CHAR LIMIT=50] -->
+    <string name="hint_brand">Hãng sản xuất</string>
+
+    <!-- Gợi ý trong trường Tình trạng thiết bị [CHAR LIMIT=50] -->
+    <string name="hint_status">Tình trạng thiết bị hiện tại</string>
+
+    <!-- Hệ điều hành Android [CHAR LIMIT=50] -->
+    <string name="os_android">Android</string>
+
+    <!-- Hệ điều hành iOS [CHAR LIMIT=50] -->
+    <string name="os_ios">iOS</string>
+
+    <!-- Các hệ điều hành Khác [CHAR LIMIT=50] -->
+    <string name="os_other">Khác</string>
+
+    <!-- Toast khi chèn thiết bị thành công[CHAR LIMIT=NONE] -->
+    <string name="editor_insert_mobile_successful">Lưu thiết bị thành công</string>
+
+    <!-- Toast khi chèn thiết bị thất bại [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_mobile_failed">Xảy ra lỗi khi lưu thiết bị</string>
+
+</resources>
